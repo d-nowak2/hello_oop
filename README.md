@@ -1,2 +1,2 @@
 # hello_oop
-This is a simply repository allowing students to experience basic GitHub functionality. 
+This is a simple repository allowing students to experience basic GitHub functionality. 
