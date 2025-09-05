@@ -4,7 +4,7 @@ This is a simple Java project created for David's Object-Oriented Programming (O
         
 **How to Use:**
 1. Fork this repository to your own GitHub account.
-2. Clone your forked repository to your local machine.
+2. Download the software project from your repository to your local machine.
 3. Open the project in Eclipse.
 4. Make your changes to the Main.java file.
 5. Commit and push your changes to your repository.
