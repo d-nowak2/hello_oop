@@ -8,5 +8,8 @@ public class Main {
         
         Greeter mickey = new Greeter("Mickey Mouse", "Life is Wonderful!");
         System.out.println(mickey.format());
+        
+        Greeter westley = new Greeter("Westley Keever", "Don't forget your semicolon;");
+        System.out.println(westley.format());
 	}
 }
