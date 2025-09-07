@@ -14,5 +14,9 @@ public class Main {
 		
         Greeter newGreeter = new Greeter("Bret Evenson","GO BEARS!!!!!");
         System.out.println(newGreeter.format());
+        
+        Greeter troy = new Greeter("Troy Nelson", "Go NE Patriots!");
+        System.out.println(troy.format());
+        
 	}
 }
