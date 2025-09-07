@@ -17,5 +17,8 @@ public class Main {
 
         Greeter drew = new Greeter("Drew Struensee", "Hello word");
         System.out.println(drew.format());
+        
+        Greeter ian = new Greeter("Ian Jung", "My favorite color is green.");
+        System.out.println(ian.format());
 	}
 }
