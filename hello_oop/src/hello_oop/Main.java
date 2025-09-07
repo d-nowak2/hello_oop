@@ -8,5 +8,8 @@ public class Main {
         
         Greeter mickey = new Greeter("Mickey Mouse", "Life is Wonderful!");
         System.out.println(mickey.format());
+        
+        Greeter newGreeter = new Greeter("Bret Evenson","GO BEARS!!!!!");
+        System.out.println(newGreeter.format());
 	}
 }
