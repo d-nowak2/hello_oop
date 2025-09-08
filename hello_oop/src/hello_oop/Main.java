@@ -11,6 +11,9 @@ public class Main {
 		
         Greeter westley = new Greeter("Westley Keever", "Don't forget your semicolon;");
         System.out.println(westley.format());
+        
+        Greeter andresBodington = new Greeter("Andres Bodington", "Max Verstappen is the GOAT!");
+        System.out.println(andresBodington.format());
 		
         Greeter newGreeter = new Greeter("Bret Evenson","GO BEARS!!!!!");
         System.out.println(newGreeter.format());
@@ -19,3 +22,4 @@ public class Main {
         System.out.println(drew.format());
 	}
 }
+
