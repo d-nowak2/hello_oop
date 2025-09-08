@@ -17,5 +17,8 @@ public class Main {
 
         Greeter drew = new Greeter("Drew Struensee", "Hello word");
         System.out.println(drew.format());
+
+        Greeter cash = new Greeter("Cash Carter", "It would be funny if you forgot the semicolon");
+        System.out.println(cash.format());
 	}
 }
