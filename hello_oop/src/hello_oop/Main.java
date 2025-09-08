@@ -17,5 +17,8 @@ public class Main {
 
         Greeter drew = new Greeter("Drew Struensee", "Hello word");
         System.out.println(drew.format());
+        
+        Greeter noah = new Greeter("Noah Laszewski", "Hey sigmas");
+        System.out.println(noah.format()); 
 	}
 }
