@@ -2,8 +2,8 @@ package hello_oop;
 
 public class Main {
 
-	public static void main(String[] args) {
-		Greeter g = new Greeter("David Nowak", "Ferrets Should Rule the World!!");
+    public static void main(String[] args) {
+        Greeter g = new Greeter("David Nowak", "Ferrets Should Rule the World!!");
         System.out.println(g.format());
         
         Greeter mickey = new Greeter("Mickey Mouse", "Life is Wonderful!");
@@ -17,5 +17,9 @@ public class Main {
 
         Greeter drew = new Greeter("Drew Struensee", "Hello word");
         System.out.println(drew.format());
-	}
+
+        // 👉 Your own greeting line goes here:
+        Greeter myGreeter = new Greeter("Bilal", "24500-002");
+        System.out.println(myGreeter.format());
+    }
 }
