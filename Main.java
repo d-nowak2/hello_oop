@@ -17,5 +17,11 @@ public class Main {
         
         Greeter layne = new Greeter("Layne Bumgarner", "What is java?");
         System.out.println(layne.format());
+
+        Greeter drew = new Greeter("Drew Struensee", "Hello word");
+        System.out.println(drew.format());
+        
+        Greeter teju = new Greeter("Teju Kolawole", "Hello world(2)");
+        System.out.println(teju.format());
 	}
 }

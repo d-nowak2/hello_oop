@@ -14,5 +14,19 @@ public class Main {
 		
         Greeter newGreeter = new Greeter("Bret Evenson","GO BEARS!!!!!");
         System.out.println(newGreeter.format());
+
+        Greeter drew = new Greeter("Drew Struensee", "Hello word");
+        System.out.println(drew.format());
+
+        Greeter Isaac = new Greeter("Isaac Joseph", "Word hard as you can and the world is yours");
+        System.out.println(Isaac.format());
+        
+        Greeter alicia = new Greeter("Alicia Wasik", "Hello world");
+        System.out.println(alicia.format());
+        Greeter isary = new Greeter("Isary Lopez", "It's Pumpkin Spice Season");
+        System.out.println(isary.format());
+
+        Greeter Abdu = new Greeter("Abdulrahman Khan", "kuch bhi");
+        System.out.println(Abdu.format());
 	}
 }
