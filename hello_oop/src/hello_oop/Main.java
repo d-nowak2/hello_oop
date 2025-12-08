@@ -18,6 +18,8 @@ public class Main {
         Greeter drew = new Greeter("Drew Struensee", "Hello word");
         System.out.println(drew.format());
         
+        Greeter alicia = new Greeter("Alicia Wasik", "Hello world");
+        System.out.println(alicia.format());
         Greeter isary = new Greeter("Isary Lopez", "It's Pumpkin Spice Season");
         System.out.println(isary.format());
 
