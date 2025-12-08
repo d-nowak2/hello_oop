@@ -14,6 +14,9 @@ public class Main {
 		
         Greeter newGreeter = new Greeter("Bret Evenson","GO BEARS!!!!!");
         System.out.println(newGreeter.format());
+        
+        Greeter layne = new Greeter("Layne Bumgarner", "What is java?");
+        System.out.println(layne.format());
 
         Greeter drew = new Greeter("Drew Struensee", "Hello word");
         System.out.println(drew.format());
