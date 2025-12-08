@@ -20,5 +20,8 @@ public class Main {
         
         Greeter isary = new Greeter("Isary Lopez", "It's Pumpkin Spice Season");
         System.out.println(isary.format());
+
+        Greeter Abdu = new Greeter("Abdulrahman Khan", "kuch bhi");
+        System.out.println(Abdu.format());
 	}
 }
